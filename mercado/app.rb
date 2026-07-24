@@ -10,10 +10,13 @@ produto1.nome = "Oleo"
 produto1.preco = 15.00
 
 produto2 = Produto.new
-produto1.nome = "Vinagre"
-produto1.preco = 10.00
+produto2.nome = "Vinagre"
+produto2.preco = 10.00
 
 
 Mercado.new(produto.nome, produto.preco).comprar
 Mercado.new(produto1.nome, produto1.preco).comprar
 Mercado.new(produto2.nome, produto2.preco).comprar
+
+valor_total = produto.preco + produto1.preco + produto2.preco
+puts "Você gastou o total de #{valor_total} "
