@@ -2,16 +2,33 @@ GEM
   remote: https://rubygems.org/
   specs:
     cpf_cnpj (1.1.0)
+    domain_name (0.6.20240107)
+    http (6.0.4)
+      http-cookie (~> 1.0)
+      llhttp (~> 0.6.1)
+    http-cookie (1.1.6)
+      domain_name (~> 0.5)
+    llhttp (0.6.2)
+    nokogiri (1.19.4-x86_64-linux-gnu)
+      racc (~> 1.4)
+    racc (1.8.1)
 
 PLATFORMS
-  ruby
   x86_64-linux
 
 DEPENDENCIES
   cpf_cnpj (>= 1.1)
+  http
+  nokogiri
 
 CHECKSUMS
   cpf_cnpj (1.1.0) sha256=42fb902045b61819160555d5c7b47a951a39fc9d6a1c995909e3360d6ef7857b
+  domain_name (0.6.20240107) sha256=5f693b2215708476517479bf2b3802e49068ad82167bcd2286f899536a17d933
+  http (6.0.4) sha256=3768f902489ea8309424f1881c668af8d3ca73675648a755dfe2cb0030d42d26
+  http-cookie (1.1.6) sha256=ba4b82be64de61dc281243dac70e3c382c45142f20268ed9276a3670c93feaa9
+  llhttp (0.6.2) sha256=3c3c59aafb1e1594ab2f45293478f697458f5a91eb0f0db4b27f61a064024982
+  nokogiri (1.19.4-x86_64-linux-gnu) sha256=379fae440b28915e3f19d752ce2dcf8465ed2b2fbefd2a7ca0dd497bc981a06a
+  racc (1.8.1) sha256=4a7f6929691dbec8b5209a0b373bc2614882b55fc5d2e447a21aaa691303d62f
 
 BUNDLED WITH
   4.0.10
